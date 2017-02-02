@@ -1,5 +1,6 @@
 /* Clearfix
 --------------------------------------------*/
+
 @mixin clearfix {
     &:before,
     &:after {
@@ -10,7 +11,6 @@
         clear: both;
     }
 }
-
 
 /* Mixins end
 --------------------------------------------*/
@@ -27,13 +27,8 @@ body{
 --------------------------------------------*/
 
 h1 { 
-    font-size: 36px;
-}
-p {
-    font-size: 18px;
-    line-height: 28px;
-    margin: 0 0 1em 0;
-    color: #fff;
+    font-size: 66px;
+    font-weight: lighter;
 }
 
 /*  TYPOGRAPHY END
@@ -65,7 +60,7 @@ header {
     position: fixed;
     z-index: 3;
     top: 0;
-    background: #fff;
+    background: #333745;
     -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
     -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
     box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.45);
@@ -96,9 +91,9 @@ header {
                 -o-transition: 0.30s ease-in-out;
                 transition: 0.30s ease-in-out;
                 margin-left: 1em;
-                color: #4a4a4a;
+                color: #eef5db;
                 &:hover, &.active{
-                    color: #6ef74f;
+                    color: #E63946;
                 }
             }
         }
@@ -118,27 +113,27 @@ section{
     &#one{
         padding-top: 4em;
         height: 60vh;
-        background: #ea6b6b;
+        background: #1D3557;
     }
     &#two{
         height: 90vh;
-        background: #f9a72c;
+        background: #457B9D;
     }
     &#three{
         height: 40vh;
-        background: #66e84e;
+        background: #A8DADC;
     }
     &#four{
         height: 120vh;
-        background: #8cf7e8;
+        background: #457B9D;
     }
     &#five{
         height: 70vh;
-        background: #7b2cf9;
+        background: #1D3557;
     }
     &#six{
         height: 130vh;
-        background: #f92c9e;
+        background: #457B9D;
     }
     .section-content{
         width: 60%;
