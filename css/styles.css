@@ -1,42 +1,9 @@
-/* Clearfix
---------------------------------------------*/
-/* Mixins end
---------------------------------------------*/
-* {
+body {
   text-align: center;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-body {
   margin: 0;
 }
 
-/*  TYPOGRAPHY
---------------------------------------------*/
-h1 {
-  font-size: 66px;
-  font-weight: lighter;
-}
-
-/*  TYPOGRAPHY END
---------------------------------------------*/
-/*  DEFAULTS
---------------------------------------------*/
-img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-
-::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-/*  DEFAULTS END
---------------------------------------------*/
-/*  HEADER
---------------------------------------------*/
 header {
   width: 100%;
   position: fixed;
@@ -46,13 +13,6 @@ header {
   -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.45);
-}
-header:before, header:after {
-  content: "";
-  display: table;
-}
-header:after {
-  clear: both;
 }
 header .menu {
   margin: 0;
@@ -89,20 +49,9 @@ header .menu li a:hover, header .menu li a.active {
   color: #E63946;
 }
 
-/*  HEADER END
---------------------------------------------*/
-/*  MAIN CONTENT
---------------------------------------------*/
 section {
   display: block;
   padding: 3em 0;
-}
-section:before, section:after {
-  content: "";
-  display: table;
-}
-section:after {
-  clear: both;
 }
 section#one {
   padding-top: 4em;
@@ -134,13 +83,3 @@ section .section-content {
   margin: 0 auto;
   color: #fff;
 }
-section .section-content:before, section .section-content:after {
-  content: "";
-  display: table;
-}
-section .section-content:after {
-  clear: both;
-}
-
-/*  MAIN CONTENT END
---------------------------------------------*/
